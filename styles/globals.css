@@ -1,0 +1,57 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F0F2F5; /* Light gray background, common in modern UIs */
+  color: #1A1A1A; /* Dark gray for primary text */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+  max-width: 600px; /* Consistent width for content */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Custom Tailwind CSS utilities for Bluesky-like colors */
+.text-bluesky-primary {
+  color: #1A1A1A;
+}
+
+.text-bluesky-secondary {
+  color: #657786; /* Muted gray for secondary text */
+}
+
+.bg-bluesky-accent {
+  background-color: #1DA1F2; /* Twitter/Bluesky blue */
+}
+
+.text-bluesky-accent {
+  color: #1DA1F2;
+}
+
+.border-bluesky-light {
+  border-color: #E1E8ED; /* Light border color */
+}
+
+.bg-bluesky-card {
+  background-color: #FFFFFF; /* White background for cards */
+}
+
+.text-bluesky-link {
+  color: #1DA1F2;
+}
+
+.hover\:text-bluesky-link:hover {
+  color: #0E71C8; /* Darker blue on hover */
+}
+
+.focus\:ring-bluesky-accent:focus {
+  box-shadow: 0 0 0 3px rgba(29, 161, 242, 0.4);
+}
+
+
