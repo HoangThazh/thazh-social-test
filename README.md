@@ -156,10 +156,6 @@ npm run dev
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Tạo Pull Request
 
-## 📄 License
-
-Distributed under the License. See [LICENSE](LICENSE) for more information.
-
 ## 📞 Liên hệ
 
 - Email: admin@thazh.is-a.dev
